@@ -1,0 +1,123 @@
+/* #2 #colorful #palette is:
+* Background: #F5F5F5 (GREY 100)
+* Primary Text: black
+
+* Primary color: #3F51B5 (INDIGO)
+* Primary color_text : white
+* Accent color: #CDDC39 (LIME)
+* Accent color_text: black
+*/
+
+/*global styles */
+* {
+/* #2 #font #faces */
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+/* #2 #colorful #background */
+    background-color: #F5F5F5;
+}
+
+button {
+/* #2 #colourful #plusfive */
+    background-color: #CDDC39;
+    color: black;
+    /* #2 #font capital #letters */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*styles for app bar*/
+
+h1 {
+/* #2 #colourful #app-bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+h1 strong {
+    text-transform: uppercase;
+    color: white;
+}
+
+/*styles for channels list*/
+.channel-list {
+    height: 144px;
+}
+
+.channel-list li {
+/* #2 #colorful #channelandchat */
+    background-color: white;
+    list-style-type: none;
+    padding-left: 16px;
+    font-size: 16px;
+    Border-bottom: 1px solid #F5F5F5;
+}
+
+.channel-list img {
+    vertical-align: middle;
+}
+
+.channel-list .selected {
+    border-left: 4px solid #3F51B5;
+    color: #3F51B5;
+}
+
+/*styles for tab bar*/
+
+.tab-bar button{
+    background-color:white;
+    text-transform: uppercase;
+    font-size: 13px;
+    width: 33%;
+    height: 72px;
+    padding: 16px;
+}
+
+.tab-bar .selected {
+    border: 4px solid #3F51B5;
+}
+
+/*styles for messages*/
+.messages {
+    width: 80%;
+    margin-bottom: 8px;
+}
+
+.messages h3 {
+    font-size: medium;
+}
+
+.messages strong {
+    text-transform: uppercase;
+    color: black;
+}
+
+.messages p {
+    background-color: white;
+    padding: 16px;
+}
+
+.messages button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+
+.messages em {
+    font-size: larger;
+    font-style: normal;
+}
+
+.my-messages {
+    margin-left: 17.5%;
+    padding: 16px;
+}
+
+.other-messages {
+    margin-left: 2.5%;
+    padding: 16px;
+}
